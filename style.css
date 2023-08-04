@@ -1,0 +1,378 @@
+body {
+    min-height: 100vh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+}
+html {
+    height: fill-available;
+    height: -webkit-fill-available;
+}
+
+body, html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F5D3B0;
+    overflow-x: hidden;
+}
+
+.inicio_tudo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inicio_prudente{
+    z-index: 0;
+    height: 100vh;
+    width: 100%;
+    background: url(prudente_fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo_inicio{
+    margin-top: 5%;
+    margin-bottom: -25px;
+}
+
+.imagem_inicio{
+    width: 100%;
+    height: 75%;
+    background: url(prudente2_upscale.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+    
+.informacao_inicio{
+position: absolute;
+bottom: 5%;
+}
+
+
+
+
+
+.quem{
+    padding-top: 200px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 1;
+    background: rgb(245,211,176);
+    background: -moz-linear-gradient(0deg, rgba(245,211,176,1) 80%, rgba(245,211,176,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(245,211,176,1) 80%, rgba(245,211,176,0) 100%);
+    background: linear-gradient(0deg, rgba(245,211,176,1) 80%, rgba(245,211,176,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5d3b0",endColorstr="#f5d3b0",GradientType=1);
+
+    z-index: 100;
+}
+
+.dentro_quem{
+    width: 90%;
+    height: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+.linha{
+    width: 4%;
+    height: auto;
+    border-radius: 100000000px;
+    background-color: #D74620;
+}
+.textos{
+    width: 90%;
+}
+
+.imagem_testos1{
+    background: url(prudente_quem.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    margin-top: 60px;
+    width: 70%;
+    height: 350px;
+    border-radius: 12px;
+    border: 2px solid #371200;
+    opacity: 0;
+}
+.imagem_testos2{
+    background: url(prudente_lider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    margin-top: 10%;
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    border: 2px solid #371200;
+}
+
+.btn{
+    color: #D74620;
+    font-family: 'Tanker', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 99%; /* 63.36px */
+    margin-top: 23px;
+    margin-bottom: 15px;
+}
+.disable{
+    color: #D74620;
+    font-family: 'Tanker', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 99%; /* 63.36px */
+    margin-top: 23px;
+    margin-bottom: 15px;
+
+    background: none;
+    width: 27ch;
+    animation: type 2.4s steps(27), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 5px solid;
+  /*  text-shadow: 0 0 30px greenyellow; */
+    place-items: center;
+}
+
+  
+  @keyframes type{
+    from{width: 0%}
+  }
+  
+  @keyframes blink{
+    50%{border-color: transparent}
+  }
+
+.texto_quem{
+    color: #371200;
+    font-family: 'Bespoke Serif', serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 110px;
+}
+
+
+
+
+
+
+
+
+.estabilidade{
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estabilidade_dentro{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo_esta{
+    color: #D74620;
+text-align: center;
+font-family: 'Tanker', sans-serif;
+font-size: 55px;
+font-style: normal;
+font-weight: 400;
+line-height: 99%; /* 54.45px */
+
+margin-bottom: 30px;
+}
+.texto_esta{
+    color: #371200;
+text-align: center;
+font-family: 'Bespoke Serif', serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 36px;
+}
+.imagem_esta1{
+    width: 100%;
+    height: 220px;
+    border-radius: 12px;
+    background: url(prudente_esta.png);
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    border: 2px solid #371200;
+}
+.imagem_esta2{
+    width: 100%;
+    height: 220px;
+    border-radius: 12px;
+    background: url(prudente_esta2.png);
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    border: 2px solid #371200;
+}
+.sub_esta{
+    color: #371200;
+text-align: center;
+font-family: 'Bespoke Serif', serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 0;
+}
+.sub_esta2{
+    color: #371200;
+    font-family: 'Tanker', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+
+.progresso{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.progresso_dentro{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.imagem_progre{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.titulo_progresso{
+    color: #371200;
+text-align: right;
+font-family: 'Tanker', sans-serif;
+font-size: 55px;
+font-style: normal;
+font-weight: 400;
+line-height: 99%; /* 54.45px */
+margin-bottom: 15px;
+}
+.texto_progresso{
+    color: #371200;
+    font-family: 'Bespoke Serif', serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 10%;
+}
+
+
+
+
+
+
+
+
+.porque{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;
+}
+.porque_dentro{
+    width: 90%;
+}
+.texto_porque{
+    color: #371200;
+    font-family: 'Bespoke Serif', serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 10px;
+}
+
+
+
+
+
+
+.rodape{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #371200;
+    margin-top: 60px;
+}
+.divide{
+    width: 100%;
+    position: absolute;
+    margin-top: -1px;
+}
+.textos_rodape{
+    width: 90%;
+}
+.titulo_rodape{
+    color: #F5D3B0;
+    font-family: 'Tanker', sans-serif;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 99%; /* 63.36px */
+letter-spacing: 0.96px;
+margin: 0;
+margin-top: 60px;
+}
+.feito_rodape{
+    display: flex;
+}
+.titulo_feito{
+    color: #F5D3B0;
+    font-family: 'Bespoke Serif', serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+li{
+    color: #F5D3B0;
+    font-family: 'Bespoke Serif', serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.nomes_rodape{
+    margin-bottom: 60px;
+}
